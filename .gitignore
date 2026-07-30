@@ -1,4 +1,8 @@
 /includes/config.local.php
+.env
+.env.*
+*.pem
+*.key
 /uploads/*
 !/uploads/.htaccess
 .DS_Store
