@@ -94,6 +94,11 @@ $pageUrl = 'https://' . ($_SERVER['HTTP_HOST'] ?? 'habitationzcic.co.uk') . $_SE
             Make a Referral
           </a>
         </li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+          <a class="nav-link px-2" href="<?= BASE_URL ?>/admin/login.php" title="Admin Login" aria-label="Admin Login">
+            <i class="bi bi-person-circle fs-5"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
